@@ -13,7 +13,7 @@
         android:theme="@style/Theme.StudyRecyclerView"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.SplashActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.StudyRecyclerView">
@@ -22,6 +22,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.StudyRecyclerView">
+        </activity>
+        <activity
+            android:name=".activity.SimpleRecyclerActivity"
+            android:theme="@style/Theme.StudyRecyclerView">
         </activity>
     </application>
 

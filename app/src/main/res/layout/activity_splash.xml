@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/testTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tt"
+        />
+    <Button
+            android:id="@+id/simpleTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:clickable="false"
+           android:text="@string/recyclerview_simple" />
+    <Button
+            android:id="@+id/middleTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:text="@string/recyclerview_middle" />
+    <Button
+        android:id="@+id/docShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:text="@string/splash_doc" />
+</LinearLayout>
